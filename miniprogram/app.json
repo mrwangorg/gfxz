@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ipsw/ipsw",
+    "pages/myInfo/myInfo",
+    "pages/iphone/iphone",
+    "pages/ipad/ipad",
+    "pages/ipod/ipod",
+    "pages/ipswlist/ipswlist" 
+  ],
+  "window": {
+    "backgroundTextStyle": "@bgTxtStyle",
+    "navigationBarBackgroundColor": "@navBgColor",
+    "navigationBarTitleText": "果粉小站",
+    "navigationBarTextStyle": "@navTxtStyle"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "描述文件",
+        "iconPath": "/images/2.png",
+        "selectedIconPath": "/images/2_click.png"
+      },
+      {
+        "pagePath": "pages/ipsw/ipsw",
+        "text": "系统固件",
+        "iconPath": "/images/3.png",
+        "selectedIconPath": "/images/3_click.png"
+      },
+      {
+        "pagePath": "pages/myInfo/myInfo",
+        "text": "我的信息",
+        "iconPath": "/images/4.png",
+        "selectedIconPath": "/images/4_click.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "darkmode": true,
+  "themeLocation": "theme.json"
+}

@@ -1,0 +1,89 @@
+<include src="../../template/header.wxml"/>
+<include src="../../template/account.wxml"/>
+
+<view class="phone_info">
+    <view class="info_warpper">
+        <view class="info_detail">
+            <view class="info_detail_name">设备型号</view>
+            <view class='float_right'>
+            <view class="info_detail_value">{{phoneInfo.model}}</view></view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">设备品牌</view>
+            <view class="info_detail_value">{{phoneInfo.brand}}</view>
+        </view>
+    
+        <view class="info_detail">
+            <view class="info_detail_name">系统版本</view>
+            <view class="info_detail_value">{{phoneInfo.system}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">网络状态</view>
+            <view class="info_detail_value">{{networkInfo.networkType}}</view>
+        </view>
+        
+        <view class="info_detail">
+            <view class="info_detail_name">微信语言</view>
+            <view class="info_detail_value">{{phoneInfo.language}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">微信版本</view>
+            <view class="info_detail_value">{{phoneInfo.version}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">客户端平台</view>
+            <view class="info_detail_value">{{phoneInfo.platform}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">字体大小</view>
+            <view class="info_detail_value">{{phoneInfo.fontSizeSetting}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">客户端版本</view>
+            <view class="info_detail_value">{{phoneInfo.SDKVersion}}</view>
+      </view>
+      
+      <view class="info_detail">
+            <view class="info_detail_name">像素比</view>
+            <view class="info_detail_value">{{phoneInfo.pixelRatio}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">屏幕宽度</view>
+            <view class="info_detail_value">{{phoneInfo.screenWidth}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">屏幕高度</view>
+            <view class="info_detail_value">{{phoneInfo.screenHeight}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">窗口宽度</view>
+            <view class="info_detail_value">{{phoneInfo.windowWidth}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">窗口高度</view>
+            <view class="info_detail_value">{{phoneInfo.windowHeight}}</view>
+        </view>
+
+        <view class="info_detail">
+            <view class="info_detail_name">状态栏高度</view>
+            <view class="info_detail_value">{{phoneInfo.statusBarHeight}}</view>
+        </view>
+
+    </view>
+</view>
+
+<view class='ad'>
+<ad unit-id="adunit-b81f4abb4ed44ad9"></ad>
+</view>
+
+<button type="primary" open-type='share' class='share-button'>分享</button>

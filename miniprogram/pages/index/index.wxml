@@ -1,0 +1,98 @@
+<include src="../../template/header.wxml"/>
+<include src="../../template/account.wxml"/>
+
+
+<view class='betacontainer'>
+
+        <view class='ios-jianbian shadow' bindtap="copyText" data-text="{{ios}}" >
+        <view class='imgcard'>
+        <image  class="image" src="../../images/ios.svg" mode='widthFix'></image>
+        <view class='banbenhao' hover-class='verbtm'>iOS 16</view>
+        </view>
+        </view>
+
+        <view class='ipados-jianbian shadow' bindtap="copyText" data-text="{{ipados}}" >
+        <view class='imgcard'>
+        <image  class="image" src="../../images/ipados.svg" mode='widthFix'></image>
+        <view class='banbenhao' hover-class='verbtm'>iPadOS 16</view>
+        </view>
+        </view>
+
+        <view class='watchos-jianbian shadow'  bindtap="copyText" data-text="{{watchos}}">
+        <view class='imgcard'>
+        <image  class="image"  src="../../images/watchos.svg" mode='widthFix'></image>
+        <view class='banbenhao' hover-class='verbtm'>watchOS 9</view>
+        </view>
+        </view>
+
+        <view class='macos-jianbian shadow' bindtap="copyText" data-text="{{macos}}">
+        <view class='imgcard'>
+        <image  class="image"  src="../../images/macos.svg" mode='widthFix'></image>
+        <view class='banbenhao' hover-class='verbtm'>Ventura</view>
+        </view>
+        </view>
+
+
+        <view class='tvos-jianbian shadow'  bindtap="copyText" data-text="{{tvos}}">
+        <view class='imgcard'>
+        <image  class="image"  src="../../images/tvos.svg" mode='widthFix'></image>
+        <view class='banbenhao' hover-class='verbtm'>tvOS 16</view>
+        </view>
+        </view>
+
+        <view class='noota-jianbian shadow' bindtap="copyText" data-text="{{noota}}">
+        <view class='imgcard'>
+        <image  class="image"  src="../../images/blockota.png" mode='widthFix'></image>
+        <view class='banbenhao' hover-class='verbtm'>屏蔽更新</view>
+        </view>
+        </view>
+</view>
+
+<view class='content'>* 屏蔽 OTA 更新文件若无法安装，请将日期调整到 2021 年 4 月 1 日之前。</view>
+
+<view class='ad'>
+<ad unit-id="adunit-6a96a242c20d85b7"></ad>
+</view>
+
+<!-- <view class="release">
+        <view wx:for="{{updateList}}" wx:key="index" class='switem'>
+            <view class="Title">{{item.title["#text"]}}</view>
+            <view class="Time">发布日期：{{item.pubDate["#text"]}} </view>
+        </view>
+</view> -->
+
+<button type="primary" open-type='share' class='share-button'>分享</button>
+
+
+<!-- 旧版图片布局
+<view class='imageview' wx:for="{{imagesList}}" wx:key="{{index}}" >
+    <view class='image_box'>
+      <image class='image shadow' bindlongpress='saveImage' bindtap="previewImg" src='https://cn.bing.com/{{item.url}}' data-imgsrc='https://cn.bing.com/{{item.url}}' data-index='{{index}}' mode='widthFix'></image>
+    </view>
+  <view class='copyright text'>{{item.copyright}}</view>
+</view>
+
+-- .css file --
+.image{
+  display: flex;
+  margin: 10rpx;
+  width: 90%;
+  border-radius: 10px;
+}
+.image_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageview{
+  align-content: center;
+}
+.copyright{
+  text-align: center;
+  margin: 20rpx 40rpx;
+  padding-bottom: 10px;
+  font-size: 26rpx;
+  color: #888888;
+  border-bottom: 1px solid #ccc;
+}
+-->

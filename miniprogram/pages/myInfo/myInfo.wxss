@@ -1,0 +1,35 @@
+
+
+.phone_info{
+  padding-bottom: 20rpx;
+  padding-right: 60rpx;
+  padding-left: 60rpx;
+}
+
+.info_detail{
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.info_detail view{
+  display: inline;
+}
+
+.info_detail_name{
+  text-align: left;
+}
+
+.info_detail_value{
+  margin-right: 0;
+  word-break: break-all;
+  color: #888;
+}
+
+#btn{
+  width: 50%; 
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}

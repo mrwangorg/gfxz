@@ -1,0 +1,13 @@
+<view style='text-align: center'>
+<include src="../../template/header.wxml"/>
+</view>
+
+<view class='ipswversion' wx:for="{{ipswversion}}" wx:if="{{item.signed}}" wx:key="{{index}}" data-url="{{item.url}}" >
+
+<view data-url="{{item.url}}" bindtap='copyurl' hover-class='dhover'>{{item.version}} </view>
+
+</view>
+
+<view class='ad' style='width: 100%; position: fixed; bottom: 0;'>
+<ad unit-id="adunit-6de3eee787343304"></ad>
+</view>

@@ -1,0 +1,4 @@
+<view class='header'>
+  <view class='header-title'>{{title}}</view>
+  <!-- <view class='header-subtitle'>{{subtitle}}</view> -->
+</view>

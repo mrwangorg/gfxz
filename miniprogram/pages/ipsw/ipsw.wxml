@@ -1,0 +1,27 @@
+<include src="../../template/header.wxml"/>
+<include src="../../template/account.wxml"/>
+
+<!--
+<view class='imageview' wx:for="{{ipswList}}" wx:key="{{index}}" >
+<view>{{ipswList.data}}</view>
+</view>
+-->
+
+<view class='iosbotton'>
+
+<view class='iphone' bindtap='goDevicesList' data-identifier="iphone" hover-class='dhover'>iPhone</view>
+
+<view class='iphone' bindtap='goDevicesList' data-identifier="ipad" hover-class='dhover'>iPad</view>
+
+<view class='iphone' bindtap='goDevicesList' data-identifier="ipod" hover-class='dhover'>iPod touch</view>
+</view>
+
+<button type="primary" open-type='share' class='share-button'>分享</button>
+
+<view style='height: 50rpx;'></view>
+
+<view  style='width:100%; position: fixed; bottom: 0'>
+<view class='ad'>
+<ad unit-id="adunit-84b843ede34ae16c"></ad>
+</view>
+</view>

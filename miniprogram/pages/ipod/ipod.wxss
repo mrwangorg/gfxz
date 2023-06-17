@@ -1,0 +1,14 @@
+/* pages/deviceslist/deviceslist.wxss */
+
+
+.listArr{
+  margin: 60rpx;
+  text-align: center;
+}
+
+.dhover{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #06c;
+}
+

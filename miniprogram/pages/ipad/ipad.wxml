@@ -1,0 +1,19 @@
+<view style='text-align: center'>
+<include src="../../template/header.wxml"/>
+</view>
+
+<!--
+<view class='imageview' wx:for="{{ipswList}}" wx:key="{{index}}" >
+<view>{{ipswList.data}}</view>
+</view>
+-->
+
+<view class='listArr' wx:for="{{listArr}}" wx:if="{{isnull}}" wx:key="{{index}}" data-identifier="{{item.identifier}}" >
+<view class='devicename' bindtap='getIpsw' data-identifier="{{item.identifier}}" hover-class='dhover'>{{item.name}}</view>
+</view>
+
+<view style='height: 10rpx;'></view>
+
+<view class='ad'>
+<ad unit-id="adunit-cb7d5a364ea6ceb3"></ad>
+</view>
