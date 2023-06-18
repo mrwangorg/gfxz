@@ -4,7 +4,6 @@
     <text>{{text}}</text>
   </view>
 </view>
-
 <!-- modal -->
 <view class='modal' wx:if="{{SHOW_MODAL}}" bindtap='okHandler'>
   <view style='flex-direction: row;align-items:center;'>
@@ -19,7 +18,6 @@
     <text>3. 微信首页下拉，快速进入小程序</text>
     <image src='./assets/fav-3.jpg' mode="widthFix" style='width:100%;'></image>
   </view>
-
   <!-- 知道了 -->
   <view class='ok-btn' hover-class='btn-hover' bindtap='okHandler'>
     <view>

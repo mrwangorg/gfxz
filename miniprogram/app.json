@@ -6,7 +6,7 @@
     "pages/iphone/iphone",
     "pages/ipad/ipad",
     "pages/ipod/ipod",
-    "pages/ipswlist/ipswlist" 
+    "pages/ipswlist/ipswlist"
   ],
   "window": {
     "backgroundTextStyle": "@bgTxtStyle",

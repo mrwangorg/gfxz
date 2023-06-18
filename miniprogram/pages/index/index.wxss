@@ -1,42 +1,40 @@
-
-
-.content{
+.content {
   color: #888888;
   padding: 60rpx;
   font-size: 28rpx;
 }
 
-.switem{
+.switem {
   padding: 10rpx 0rpx;
   font-size: 28rpx;
   margin: 0rpx 60rpx;
   border-bottom: 1px solid #ccc;
 }
 
-.Title{
+.Title {
   color: #888888;
   padding-bottom: 10rpx;
   font-weight: bold;
 }
 
-.blank{
+.blank {
   height: 20rpx;
 }
 
-.Time{
-    color: #888888
+.Time {
+  color: #888888
 }
 
-.release{
+.release {
   margin-top: 20rpx;
 }
 
-#btn{
-  width: 50%; 
+#btn {
+  width: 50%;
   margin-top: 20rpx;
 }
 
-.betacontainer{
+.betacontainer {
   margin: auto 40rpx;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -44,7 +42,7 @@
   justify-items: center;
 }
 
-.ios-jianbian{
+.ios-jianbian {
   background-image: linear-gradient(to left top, #e3ab69, #d0b76f, #bec17d, #adc88f, #a1cea4, #92ceae, #85ceba, #7acdc5, #5fc7cd, #44c1d7, #2cb9e0, #27b0e8);
   border-radius: 10%;
   color: #fff;
@@ -53,7 +51,7 @@
   height: auto;
 }
 
-.ipados-jianbian{
+.ipados-jianbian {
   background-image: linear-gradient(to left top, #2eb0e5, #00bbe4, #00c6de, #00cfd3, #2cd7c5, #5cd9b4, #7edaa4, #9bda97, #b7d48d, #cece8b, #dec890, #e9c399);
   border-radius: 10%;
   color: #fff;
@@ -62,7 +60,7 @@
   height: auto;
 }
 
-.watchos-jianbian{
+.watchos-jianbian {
   background-image: linear-gradient(to right top, #d97991, #cd84ba, #ad96dc, #7ca9ee, #40b9ed, #00c4e7, #00ced8, #25d5c3, #45ddb1, #69e39b, #8fe883, #b6ea6b);
   border-radius: 10%;
   color: #fff;
@@ -71,7 +69,7 @@
   height: auto;
 }
 
-.macos-jianbian{
+.macos-jianbian {
   background-image: linear-gradient(to right top, #ff6b04, #ff7a00, #ff8700, #ff9400, #ffa100, #fb9b05, #f7950a, #f38f0e, #e77517, #d95c1e, #c94323, #b62826);
   border-radius: 10%;
   color: #fff;
@@ -80,8 +78,8 @@
   height: auto;
 }
 
-.tvos-jianbian{
-  background: linear-gradient(to bottom right,#ffc762,#e55445);
+.tvos-jianbian {
+  background: linear-gradient(to bottom right, #ffc762, #e55445);
   border-radius: 10%;
   color: #fff;
   text-align: center;
@@ -89,8 +87,8 @@
   height: auto;
 }
 
-.noota-jianbian{
-  background: linear-gradient(-45deg,#ed6e2c,#f9e44b);
+.noota-jianbian {
+  background: linear-gradient(-45deg, #ed6e2c, #f9e44b);
   border-radius: 10%;
   color: #fff;
   text-align: center;
@@ -98,29 +96,29 @@
   height: auto;
 }
 
-.imgcard{
-  padding:40rpx 0rpx;
+.imgcard {
+  padding: 40rpx 0rpx;
 }
 
 .image {
-    padding-bottom: 20rpx;
-    width: 150rpx;
+  padding-bottom: 20rpx;
+  width: 150rpx;
 }
 
-.banbenhao{
+.banbenhao {
   color: #fff;
-  display:table;
+  display: table;
   width: auto;
   font-size: 32rpx;
   margin: 0rpx auto;
   padding: 5rpx 10rpx;
   text-align: center;
   border-radius: 5px;
-  background: linear-gradient(#42a1ec,#0070c9);
+  background: linear-gradient(#42a1ec, #0070c9);
   border: 1px solid #07c;
   min-width: 82px;
 }
 
-.verbtm{
-  transform:scale(0.9);
+.verbtm {
+  transform: scale(0.9);
 }

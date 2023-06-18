@@ -17,14 +17,14 @@ Page({
       }
     }),
 
-    wx.getNetworkType({
-      success: function (res) {
-        console.log(res)
-        that.setData({
-          networkInfo: res
-        });
-      }
-    })
+      wx.getNetworkType({
+        success: function (res) {
+          console.log(res)
+          that.setData({
+            networkInfo: res
+          });
+        }
+      })
   },
 
   onReady: function () { },

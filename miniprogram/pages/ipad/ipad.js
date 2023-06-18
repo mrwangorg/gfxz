@@ -44,7 +44,7 @@ Page({
         var devicesdata = JSON.parse(res.data).reverse()
         var length = devicesdata.length;
         var listArr = [];
-      //  var identifiername = JSON.stringify(that.data.identifierList)
+        //  var identifiername = JSON.stringify(that.data.identifierList)
 
         for (var L1 = 0; L1 < length; L1++) {
 

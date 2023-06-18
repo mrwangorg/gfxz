@@ -10,14 +10,16 @@
   flex-direction: column;
   width: 600rpx;
 }
+
 .arrow {
   width: 0;
   height: 0;
   margin-right: 120rpx;
   border-width: 20rpx;
   border-style: solid;
-  border-color:  transparent transparent #34b5e2 transparent;
+  border-color: transparent transparent #34b5e2 transparent;
 }
+
 .body {
   background-color: #34b5e2;
   box-shadow: 0 10rpx 20rpx -10rpx #34b5e2;
@@ -29,7 +31,8 @@
   padding: 0 20rpx;
   margin-right: 40rpx;
 }
-.body > text {
+
+.body>text {
   color: #FFF;
   font-size: 28rpx;
   font-weight: 400;
@@ -45,19 +48,22 @@
   background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
 }
-.modal > view {
+
+.modal>view {
   margin: 10px 0;
   display: flex;
   /* align-items: center; */
   flex-direction: column;
 }
-.modal > view > text {
+
+.modal>view>text {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 5px;
   color: #333;
 }
-.modal > view > image {
+
+.modal>view>image {
   border-radius: 10px;
 }
 
@@ -68,7 +74,8 @@
   align-items: center;
   justify-content: center;
 }
-.ok-btn > view {
+
+.ok-btn>view {
   height: 40px;
   width: 120px;
   background-color: #34b5e2;
@@ -78,11 +85,13 @@
   justify-content: center;
   border-radius: 40px;
 }
-.ok-btn > view > text {
+
+.ok-btn>view>text {
   font-size: 14px;
   color: #fff;
   font-weight: 400;
 }
+
 .btn-hover {
   opacity: 0.6;
 }

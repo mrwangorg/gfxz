@@ -5,33 +5,33 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-} 
+}
 
 button {
   background: initial;
 }
 
-button:focus{
+button:focus {
   outline: 0;
 }
 
-button::after{
+button::after {
   border: none;
 }
 
-.ad{
+.ad {
   width: 90%;
   height: auto;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 40rpx;
 }
 
-.ad ad{
+.ad ad {
   border-radius: 20rpx;
 }
 
-.header{
+.header {
   padding: 60rpx;
   line-height: 1;
   /* background-color: #333333; */
@@ -40,21 +40,19 @@ button::after{
   font-size: 32rpx;
 }
 
-.header-title{
+.header-title {
   font-size: 52rpx;
   padding-bottom: 10rpx;
 }
 
-.header-subtitle{
+.header-subtitle {
   margin-top: 10rpx;
   color: #888888;
   font-size: 28rpx;
 }
 
-.share-button{
-  width: 50%; 
+.share-button {
+  width: 50%;
   margin-top: 20rpx;
   margin-bottom: 30rpx;
 }
-
-

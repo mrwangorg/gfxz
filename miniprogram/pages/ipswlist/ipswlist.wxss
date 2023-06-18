@@ -1,10 +1,9 @@
-
-.ipswversion{
+.ipswversion {
   margin: 60rpx;
   text-align: center;
 }
 
-.dhover{
+.dhover {
   font-weight: bold;
   text-decoration: underline;
   color: #06c;

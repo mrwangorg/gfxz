@@ -11,38 +11,38 @@ Page({
     subtitle: "* Apple 各大系统的开发者测试版描述文件",
   },
 
-  
-  getUpdateList(){
+
+  getUpdateList() {
     wx.showLoading({
       title: '加载中',
     })
     setTimeout(function () {
       wx.hideLoading()
     }, 2000)
-    
+
     let that = this;
-    
+
     wx.request({
       url: "https://developer.apple.com/news/releases/rss/releases.rss",
 
-          success(res) {
-          //console.log(res.data);
-          var xml2json = require('xmlstring2json');
-          // console.log(JSON.stringify(xml2json(res.data), null, 4));
-          var xml = JSON.stringify(xml2json(res.data), null, 4)
-        
-          
-          var jsondata = (JSON.parse(xml))
+      success(res) {
+        //console.log(res.data);
+        var xml2json = require('xmlstring2json');
+        // console.log(JSON.stringify(xml2json(res.data), null, 4));
+        var xml = JSON.stringify(xml2json(res.data), null, 4)
 
 
-          that.setData({
-            updateList: (jsondata.rss.channel.item).reverse()
-          })
+        var jsondata = (JSON.parse(xml))
 
-          console.log(that.data.updateList)
-            
-        }
-  })
+
+        that.setData({
+          updateList: (jsondata.rss.channel.item).reverse()
+        })
+
+        console.log(that.data.updateList)
+
+      }
+    })
 
 
   },
@@ -70,7 +70,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-     this.getUpdateList();
+    this.getUpdateList();
   },
 
   /**
@@ -83,42 +83,42 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    
+
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    
+
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-    
+
   },
 
   /**
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    
+
   }
 })
 
